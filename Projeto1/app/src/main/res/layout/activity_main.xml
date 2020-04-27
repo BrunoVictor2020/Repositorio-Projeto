@@ -16,4 +16,20 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="264dp"
+        android:layout_height="227dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="527dp"
+        android:layout_height="222dp"
+        android:src="@mipmap/ic_launcher1_foreground"
+        tools:layout_editor_absoluteX="-36dp"
+        tools:layout_editor_absoluteY="29dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
